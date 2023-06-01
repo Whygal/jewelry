@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Button, TextField } from '@mui/material';
 import "./style.css"
 
 export const ContactUs = () => {
@@ -17,15 +18,21 @@ export const ContactUs = () => {
   };
 
   return (
-
     <form ref={form} onSubmit={sendEmail}>
+
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <TextField type="text" name="user_name" />
+
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <TextField type="email" name="user_email" />
+
       <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+      <TextField name="message"/>
+
+      <Button>
+      <TextField type="submit" value="Send" />
+      </Button>
+
     </form>
   );
 };
