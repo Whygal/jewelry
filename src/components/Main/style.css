@@ -18,3 +18,21 @@
     flex-direction: column;
     text-align: center;
 }
+.photos{
+    width: 45%;
+    height: 45%;
+}
+.ltr{
+    display: flex;
+    text-align: center;
+}
+.rtl{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+.text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

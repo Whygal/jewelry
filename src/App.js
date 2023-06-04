@@ -1,15 +1,26 @@
+import React from 'react';
 import { ContactUs } from './components/EmailForm/Emailjs';
-import Header from './components/EmailForm/Header/Header';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
+import About from './components/About/About';
+import SimpleMap from './components/Map/Map';
+import {Route, Routes} from 'react-router-dom';
 import "./style.css"
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Main/>
-      <ContactUs/>
+      <div className='pages'>
+      <Routes>
+        <Route path='/' element={<Main/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/contact' element={<ContactUs/>}/>
+        <Route path='/map' element={<SimpleMap/>}/>
+        <Route path='*' element={<Main/>}/>
+        </Routes>
+      </div>
       <Footer/>
     </div>
   );

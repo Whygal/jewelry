@@ -1,9 +1,65 @@
 import React from 'react'
 import { Typography } from '@mui/material'
 import "./style.css"
+import "../../Photos/jewelry1.jpeg"
+import photo1 from "../../Photos/jewelry1.jpeg"
+import photo2 from "../../Photos/jewelry2.jpeg"
+import photo3 from "../../Photos/jewelry3.jpeg"
+import photo4 from "../../Photos/jewelry4.jpeg"
+
 const Main = () => {
   return (
     <div className='Main'>
+      <div className='parts'>
+                <div className='rtl'>
+                <img src={photo1} alt='logo' className='photos'/>
+                <div className='text'>
+                <Typography>
+                djfljfsldkf
+                </Typography>
+                <Typography>
+                  djfljfsldkfdfhhkjbvczbv,cxzc, , ,jhkhlmmmnklsadldm.,.,
+                  xzckjhclzkjlkxjzlkjlxz
+                </Typography>
+                </div>
+                </div>
+                <div className='ltr'>
+                <img src={photo2} alt='logo' className='photos'/>
+                <div className='text'>
+                <Typography>
+                djfljfsldkf
+                </Typography>
+                <Typography>
+                  djfljfsldkfdfhhkjbvczbv,cxzc, , ,jhkhlmmmnklsadldm.,.,
+                  xzckjhclzkjlkxjzlkjlxz
+                </Typography>
+                </div>
+                </div>
+                <div className='rtl'>
+                <img src={photo3} alt='logo' className='photos'/>
+                <div className='text'>
+                <Typography>
+                djfljfsldkf
+                </Typography>
+                <Typography>
+                  djfljfsldkfdfhhkjbvczbv,cxzc, , ,jhkhlmmmnklsadldm.,.,
+                  xzckjhclzkjlkxjzlkjlxz
+                </Typography>
+                </div>
+                </div>
+                <div className='ltr'>
+                <img src={photo4} alt='logo' className='photos'/>
+                <div className='text'>
+                <Typography>
+                djfljfsldkf
+                </Typography>
+                <Typography>
+                  djfljfsldkfdfhhkjbvczbv,cxzc, , ,jhkhlmmmnklsadldm.,.,
+                  xzckjhclzkjlkxjzlkjlxz
+                </Typography>
+                </div>
+              </div>
+      </div>
         <div className='texts'>
       <Typography className='text'>
 Our company specializes in Fancy Color Diamond, Various kinds of colors, starting from the most common Yellow Diamonds to the rarest colors on earth such as Red, Orange, Pink, Blue, Green and Purple Diamonds.
