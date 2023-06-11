@@ -6,6 +6,7 @@ import Main from './components/Main/Main';
 import About from './components/About/About';
 import SimpleMap from './components/Map/Map';
 import {Route, Routes} from 'react-router-dom';
+import Map from "./components/Map/Map"
 import "./style.css"
 import Eng from './components/Eng/Eng';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/map' element={<SimpleMap/>}/>
         <Route path='*' element={<Main/>}/>
         <Route path='/Engagement' element={<Eng/>}/>
+        <Route path='/Map' element={<Map/>}/>
         </Routes>
       </div>
       <Footer/>
