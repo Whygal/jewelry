@@ -15,13 +15,19 @@ const Main = () => {
                 <div className='rtl'>
                 <img src={photo1} alt='logo' className='photos'/>
                 <div className='text'>
+                  <Typography>
+                  Introducing Our Sparkling Summer Diamond Ring Collection
+                    </Typography>
+                    <Typography>
+Embrace the warmth and radiance of summer with our exquisite collection of diamond rings. Designed to capture the essence of the sun-kissed season, each ring in our collection showcases the brilliance and beauty of diamonds in unique and captivating ways. From vibrant colors to delicate designs, our selection offers a range of options to make your summer shine even brighter.
+                  </Typography>
                 <Typography>
-                djfljfsldkf
+                The Sunburst Collection:
                 </Typography>
                 <Typography>
-                  djfljfsldkfdfhhkjbvczbv,cxzc, , ,jhkhlmmmnklsadldm.,.,
-                  xzckjhclzkjlkxjzlkjlxz
+Bask in the glow of the summer sun with our Sunburst Collection. Inspired by the captivating rays of sunlight, these rings feature diamonds arranged in intricate patterns that radiate from a central point. The play of light and shadows creates a mesmerizing effect, reflecting the energy and joy of the summer season.
                 </Typography>
+                <Link to={"/Engagement"}><Button>click here to learn more</Button></Link>
                 </div>
                 </div>
                 <div className='ltr'>
@@ -40,24 +46,24 @@ const Main = () => {
                 <img src={photo3} alt='logo' className='photos'/>
                 <div className='text'>
                 <Typography>
-                djfljfsldkf
+                The Ocean Breeze Collection:
                 </Typography>
                 <Typography>
-                  djfljfsldkfdfhhkjbvczbv,cxzc, , ,jhkhlmmmnklsadldm.,.,
-                  xzckjhclzkjlkxjzlkjlxz
+Dive into a world of tranquility and elegance with our Ocean Breeze Collection. These rings evoke the calming allure of the sea, with diamonds reminiscent of glistening waves and cool ocean hues. From aquamarines to sapphires, each ring captures the essence of the ocean, bringing a refreshing touch to your summer style.
                 </Typography>
+                <Link to={"/Engagement"}><Button>click here to learn more</Button></Link>
                 </div>
                 </div>
                 <div className='ltr'>
                 <img src={photo4} alt='logo' className='photos'/>
                 <div className='text'>
                 <Typography>
-                djfljfsldkf
+                The Delicate Seashell Collection:
                 </Typography>
                 <Typography>
-                  djfljfsldkfdfhhkjbvczbv,cxzc, , ,jhkhlmmmnklsadldm.,.,
-                  xzckjhclzkjlkxjzlkjlxz
+Embrace the delicate beauty of seashells with our charming collection. These rings are intricately designed to mimic the intricate patterns found in nature's seashells. With diamonds delicately arranged in swirling patterns, these rings evoke a sense of whimsy and natural elegance. Wear a piece of the ocean on your finger and let the summer vibes surround you.
                 </Typography>
+                <Link to={"/Engagement"}><Button>click here to learn more</Button></Link>
                 </div>
               </div>
       </div>
