@@ -1,11 +1,12 @@
 import React from 'react'
-import { Typography } from '@mui/material'
+import { Button, Typography } from '@mui/material'
 import "./style.css"
 import "../../Photos/jewelry1.jpeg"
 import photo1 from "../../Photos/jewelry1.jpeg"
 import photo2 from "../../Photos/jewelry2.jpeg"
 import photo3 from "../../Photos/jewelry3.jpeg"
 import photo4 from "../../Photos/jewelry4.jpeg"
+import { Link } from 'react-router-dom'
 
 const Main = () => {
   return (
@@ -27,12 +28,12 @@ const Main = () => {
                 <img src={photo2} alt='logo' className='photos'/>
                 <div className='text'>
                 <Typography>
-                djfljfsldkf
+                Introducing Our Exquisite Engagement Ring Collection
                 </Typography>
                 <Typography>
-                  djfljfsldkfdfhhkjbvczbv,cxzc, , ,jhkhlmmmnklsadldm.,.,
-                  xzckjhclzkjlkxjzlkjlxz
+                Celebrate the eternal bond of love and commitment with our extraordinary collection of engagement rings. Crafted with unparalleled artistry and meticulous attention to detail, each ring in our collection is a testament to the timeless beauty of true love. From classic solitaires to intricate halo designs, our selection offers something for every style and preference.
                 </Typography>
+                <Link to={"/Engagement"}><Button>click here to learn more</Button></Link>
                 </div>
                 </div>
                 <div className='rtl'>

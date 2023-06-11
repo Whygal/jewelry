@@ -7,6 +7,7 @@ import About from './components/About/About';
 import SimpleMap from './components/Map/Map';
 import {Route, Routes} from 'react-router-dom';
 import "./style.css"
+import Eng from './components/Eng/Eng';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/contact' element={<ContactUs/>}/>
         <Route path='/map' element={<SimpleMap/>}/>
         <Route path='*' element={<Main/>}/>
+        <Route path='/Engagement' element={<Eng/>}/>
         </Routes>
       </div>
       <Footer/>
